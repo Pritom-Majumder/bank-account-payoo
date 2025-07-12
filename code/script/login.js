@@ -7,7 +7,15 @@ document.getElementById("login-btn").addEventListener("click",
 
     const accountNumber = document.getElementById("Account-number").value;
    const Pin = document.getElementById("pin").value;
-   console.log(accountNumber, Pin);
+   if(accountNumber.length===11){
+      console.log("yes, valid Account Number");
+      
+   }
+   else{
+    console.log("Need Valid Account Number");
+    
+   }
+
    
     
 })
