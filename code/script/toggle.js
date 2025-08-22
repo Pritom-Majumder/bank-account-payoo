@@ -1,5 +1,5 @@
 document.getElementById("addmoney").style.display ="block"; // by default firstly one thing is show
-// document.getElementById("cashOut").style.display = "none"; // by default firstly another thing isn't show
+ document.getElementById("cashOut").style.display = "none"; // by default firstly another thing isn't show
 
 
 
